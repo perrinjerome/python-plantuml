@@ -1,5 +1,11 @@
+
 from setuptools import setup
-from plantuml import __author__, __version_string__, __email__
+
+__version__ = 0, 3, 0
+__version_string__ = '.'.join(str(x) for x in __version__)
+
+__author__ = 'Doug Napoleone, Samuel Marks, Eric Frederich'
+__email__ = 'doug.napoleone+plantuml@gmail.com'
 
 setup(
     name='plantuml',

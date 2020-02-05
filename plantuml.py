@@ -18,12 +18,6 @@ if six.PY2:
 else:
     maketrans = bytes.maketrans
 
-__version__ = 0, 3, 0
-__version_string__ = '.'.join(str(x) for x in __version__)
-
-__author__ = 'Doug Napoleone, Samuel Marks, Eric Frederich'
-__email__ = 'doug.napoleone+plantuml@gmail.com'
-
 
 plantuml_alphabet = string.digits + string.ascii_uppercase + string.ascii_lowercase + '-_'
 base64_alphabet   = string.ascii_uppercase + string.ascii_lowercase + string.digits + '+/'
